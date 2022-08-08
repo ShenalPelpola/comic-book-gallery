@@ -15,6 +15,7 @@ namespace comic_book_gallery.Controllers
 
         public ActionResult About()
         {
+            Console.WriteLine("Hello World!");
             ViewBag.Message = "Your application description page.";
 
             return View();
